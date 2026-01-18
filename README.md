@@ -36,14 +36,19 @@ cisco-networking-basics/
 ├── Packet Tracer Labs/
 │   ├── Lab 1 - Configure Wireless Router and Client (4.4.4)/
 │   │   ├── lab1.md ✅ (Laporan praktik lengkap)
-│   │   ├── screenshots/ (10 screenshots)
-│   │   └── Configure a Wireless Router and Client.pka
-│   ├── Lab 2 - Connect to Web Server (8.1.3)/
-│   │   ├── lab2.md (template)
-│   │   └── screenshots/
-│   ├── [Lab 3-13...] (template siap)
+│   │   ├── screenshots/
+│   │   └── *.pka (file Packet Tracer)
+│   ├── [Lab 2-13...] (template siap)
 │   └── README.md (index semua labs)
-├── README.md (File ini - progress tracking)
+├── notes_modul/
+│   ├── modul-01-id.md (Communication in a Connected World)
+│   ├── modul-02-id.md (Network Components & Connections)
+│   ├── modul-03-id.md (Wireless and Mobile Networks)
+│   ├── modul-04-id.md (Build a Home Network)
+│   ├── modul-05-id.md (Communication Principles)
+│   ├── modul-06-id.md (Network Media)
+│   └── modul-07-id.md (Access Layer)
+├── README.md (File ini)
 └── .git/
 ```
 
