@@ -9,15 +9,15 @@ Portofolio ini berisi 13 lab praktik Packet Tracer dengan dokumentasi lengkap se
 
 ## 📊 Progress Labs
 
-**Labs Selesai:** 2 / 13 ✅  
-**Course Completion:** ~35% (January 2026)
+**Labs Selesai:** 3 / 13 ✅  
+**Course Completion:** ~40% (January 2026)
 
 ### ✅ Completed:
 - ✅ Lab 1: Configure Wireless Router and Client (4.4.4) - 18 Jan 2026
 - ✅ Lab 2: Connect to Web Server (8.1.3) - 19 Jan 2026
+- ✅ Lab 3: Configure DHCP on Router (11.2.3) - 24 Jan 2026
 
 ### ⏳ Upcoming:
-- Lab 3: Configure DHCP on Router (11.2.3)
 - Lab 4: Examine NAT on Router (12.2.2)
 - Lab 5: Identify MAC and IP Addresses (13.1.3)
 - Lab 6: Observe Traffic Flow in Routed Network (14.3.3)
@@ -50,7 +50,8 @@ cisco-networking-basics/
 │   ├── modul-07-id.md (Access Layer)
 │   ├── modul-08-id.md (The Internet Protocol)
 │   ├── modul-09-id.md (IPv4 Transmission Types)
-│   └── modul-10-id.md (IPv6 Addressing)
+│   ├── modul-10-id.md (IPv6 Addressing)
+│   └── modul-11-id.md (Dynamic Addressing - DHCP)
 ├── notes_modul_tambahan/
 │   ├── tambahan-modul-05.md (TCP/UDP, Ports, 3-Way Handshake)
 │   ├── tambahan-modul-07.md (ARP Protocol, ARP Spoofing)
