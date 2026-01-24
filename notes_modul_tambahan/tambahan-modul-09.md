@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Penjelasan Super Simpel (Baca Ini Dulu!)
+## 📌 Ringkasan Konsep Utama
 
 ### DHCP = Resepsionis Hotel
 
@@ -16,7 +16,7 @@ Kamu masuk hotel tanpa reservasi...
 Kamu:       "Saya mau kamar!" (DHCP Discover)
 Resepsionis: "Ada kamar 101, mau?" (DHCP Offer)
 Kamu:       "Oke, saya ambil 101!" (DHCP Request)
-Resepsionis: "Sip, ini kunci. Check-out 3 hari lagi ya!" (DHCP Ack)
+Resepsionis: "Baik, ini kunci. Check-out 3 hari lagi." (DHCP Ack)
 
 IP = Nomor kamar
 Lease Time = Durasi menginap
@@ -39,7 +39,7 @@ Hari 3: Lease habis, laptop minta perpanjang
         Kalau DHCP server setuju → IP tetap
         Kalau ada yang pakai → dapat IP baru
 
-Makanya IP laptop kamu bisa beda-beda!
+Inilah mengapa IP laptop bisa berubah-ubah
 ```
 
 ### DHCP Starvation Attack = Hacker Booking Semua Kamar

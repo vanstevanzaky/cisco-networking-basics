@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Penjelasan Super Simpel (Baca Ini Dulu!)
+## 📌 Ringkasan Konsep Utama
 
 ### TCP vs UDP = Kirim Paket
 

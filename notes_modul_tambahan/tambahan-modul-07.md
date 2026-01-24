@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Penjelasan Super Simpel (Baca Ini Dulu!)
+## 📌 Ringkasan Konsep Utama
 
 ### Switch vs Hub = Kurir Pintar vs Tukang Teriak
 
@@ -31,8 +31,8 @@ Ada surat untuk Rumah 5
 Switch: *cek daftar* "Rumah 5 di port 3"
         *kirim langsung ke port 3*
 
-Rumah lain tidak tahu ada surat 😴
-EFISIEN!
+Rumah lain tidak tahu ada surat
+Lebih efisien
 ```
 
 ### MAC Address = Nomor KTP (Permanen)

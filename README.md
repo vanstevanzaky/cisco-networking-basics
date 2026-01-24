@@ -47,7 +47,16 @@ cisco-networking-basics/
 │   ├── modul-04-id.md (Build a Home Network)
 │   ├── modul-05-id.md (Communication Principles)
 │   ├── modul-06-id.md (Network Media)
-│   └── modul-07-id.md (Access Layer)
+│   ├── modul-07-id.md (Access Layer)
+│   ├── modul-08-id.md (The Internet Protocol)
+│   ├── modul-09-id.md (IPv4 Transmission Types)
+│   └── modul-10-id.md (IPv6 Addressing)
+├── notes_modul_tambahan/
+│   ├── tambahan-modul-05.md (TCP/UDP, Ports, 3-Way Handshake)
+│   ├── tambahan-modul-07.md (ARP Protocol, ARP Spoofing)
+│   ├── tambahan-modul-09.md (DHCP Protocol, DHCP Attacks)
+│   └── tambahan-dns.md (DNS Protocol, DNS Attacks)
+├── ROADMAP-BELAJAR.md (Panduan prioritas belajar)
 ├── README.md (File ini)
 └── .git/
 ```
@@ -69,5 +78,5 @@ Dokumentasi ini menunjukkan networking fundamentals yang solid untuk career path
 
 ---
 
-📅 **Terakhir Diperbarui:** 18 Januari 2026  
+📅 **Terakhir Diperbarui:** 24 Januari 2026  
 📊 **Repository Status:** Dalam Pengembangan Aktif

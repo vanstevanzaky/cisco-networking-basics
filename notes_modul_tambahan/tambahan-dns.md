@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Penjelasan Super Simpel (Baca Ini Dulu!)
+## 📌 Ringkasan Konsep Utama
 
 ### DNS = Buku Telepon Internet
 
@@ -17,7 +17,7 @@ Kamu: "Nomor telepon Google berapa ya?"
 DNS:  "Google = 142.250.185.78"
 Kamu: "Makasih!" *telepon 142.250.185.78*
 
-Tanpa DNS, kamu harus HAFAL semua IP! 😵
+Tanpa DNS, pengguna harus menghafal semua IP
 ```
 
 ### Kenapa Perlu DNS?
@@ -31,7 +31,7 @@ Facebook:      157.240.1.35
 YouTube:       172.217.194.91
 Netflix:       52.4.128.87
 
-Bayangkan harus hafal semua... 🤯
+Tidak praktis jika harus menghafal semua
 ```
 
 ### Cara Kerja DNS (Seperti Tanya Alamat)
@@ -54,7 +54,7 @@ Kamu mau ke rumah "Budi" tapi tidak tahu alamatnya...
 5. Tanya Server X (Authoritative DNS)
    Server X: "Budi.com = 192.168.1.50"
 
-Sekarang kamu tahu alamatnya! 🎉
+Proses selesai, alamat ditemukan
 ```
 
 ### DNS Cache = Catatan Kecil

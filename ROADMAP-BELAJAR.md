@@ -28,6 +28,7 @@
 
 | Modul | Topik | Kenapa Penting untuk CyberSec |
 |-------|-------|-------------------------------|
+| **10** | IPv6 Addressing & Format | Dual stack, tunneling attacks, IPv6 recon |
 | **7** | Switch & MAC Address Table | MAC flooding, ARP spoofing |
 | **3** | Wireless Security (WEP/WPA/WPA2) | Wireless hacking, evil twin |
 
@@ -171,16 +172,16 @@ Setiap selesai 1 modul, tutup catatan dan jawab:
 **Cara isi pemahaman:** ⬛⬛⬛⬛⬛ = 100% paham
 
 ### Modul Lanjutan (10-17)
-| Modul | Status | Pemahaman | Terakhir Review |
-|-------|--------|-----------|-----------------|
-| 10 | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
-| 11 | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
-| 12 | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
-| 13 | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
-| 14 | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
-| 15 | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
-| 16 | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
-| 17 | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
+| Modul | Topik | Status | Pemahaman | Terakhir Review |
+|-------|-------|--------|-----------|-----------------|
+| 10 | IPv6 Addressing | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
+| 11 | Dynamic Addressing | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
+| 12 | Gateways to Other Networks | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
+| 13 | The ARP Process | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
+| 14 | Routing Between Networks | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
+| 15 | TCP and UDP | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
+| 16 | Application Layer Services | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
+| 17 | Network Testing Utilities | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
 
 ### Modul Tambahan
 | Topik | File | Pemahaman |
@@ -194,13 +195,13 @@ Setiap selesai 1 modul, tutup catatan dan jawab:
 
 ## 🚀 Next Steps
 
-1. **Sekarang:** Baca roadmap ini, pahami prioritas
-2. **Besok:** Mulai review Modul 5 (OSI/TCP-IP)
+1. **Sekarang:** Review modul 1-10 yang sudah selesai
+2. **Selanjutnya:** Lanjut modul Cisco 11-17
 3. **Minggu ini:** Selesaikan review modul prioritas 🔴
-4. **Minggu depan:** Lanjut modul Cisco 10-17
+4. **Target:** Selesaikan semua modul sebelum apply internship
 
-**Butuh bantuan?** Kirim konten Inggris dari NetAcad, aku terjemahkan!
+**Butuh bantuan?** Kirim konten Inggris dari NetAcad untuk diterjemahkan!
 
 ---
 
-*"Networking adalah bahasa dasar cybersecurity. Kuasai dulu bahasanya, baru bisa hack sistemnya."* 🔐
+*"Networking adalah fondasi cybersecurity."*
