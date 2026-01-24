@@ -1,21 +1,30 @@
 # Modul 1: Communication in a Connected World
 
-**Kursus:** Cisco Networking Academy - Networking Basics  
-**Status:** ✅ Selesai  
-**Tanggal:** Januari 2026
+**Modul:** 1 - Communication in a Connected World  
+**Status:** ✅ Selesai
 
 ---
 
-## 📚 Konsep Inti
+## 📌 Ringkasan
+
+- Jaringan dibagi berdasarkan jangkauan: PAN, LAN, MAN, WAN
+- Komponen: End devices, intermediary devices, media
+- Internet diakses via ISP dengan berbagai teknologi (DSL, Cable, Fiber, Cellular)
+
+---
+
+## 📚 Materi
 
 ### 1. Jenis Jaringan
 
-| Jenis | Definisi | Contoh |
-|-------|----------|--------|
-| **PAN** | Personal Area Network (~1m) | Bluetooth headset |
-| **LAN** | Local Area Network (1 gedung) | Jaringan kantor, rumah |
-| **WAN** | Wide Area Network (antar kota/negara) | Internet, jaringan perusahaan |
-| **MAN** | Metropolitan Area Network (1 kota) | Jaringan kampus |
+| Jenis | Jangkauan | Contoh |
+|-------|-----------|--------|
+| **PAN** | ~1 meter | Bluetooth headset |
+| **LAN** | 1 gedung | Jaringan kantor |
+| **MAN** | 1 kota | Jaringan kampus |
+| **WAN** | Antar kota/negara | Internet |
+
+---
 
 ### 2. Komponen Jaringan
 
@@ -24,36 +33,37 @@
 - Sumber atau tujuan data
 
 **Intermediary Devices:**
-- **Router** - menghubungkan jaringan berbeda
-- **Switch** - menghubungkan device dalam LAN
-- **Access Point** - koneksi wireless
-- **Firewall** - keamanan jaringan
+| Device | Fungsi |
+|--------|--------|
+| Router | Menghubungkan jaringan berbeda |
+| Switch | Menghubungkan device dalam LAN |
+| Access Point | Koneksi wireless |
+| Firewall | Keamanan jaringan |
 
-**Media Jaringan:**
-- Kabel (copper, fiber)
-- Wireless (Wi-Fi, Bluetooth)
-
-### 3. Representasi Jaringan
-
-**Diagram Topologi:**
-- **Physical Topology** - lokasi fisik perangkat & kabel
-- **Logical Topology** - bagaimana data mengalir
+**Media:** Copper cable, Fiber optic, Wireless
 
 ---
 
-## 🌐 Internet & ISP
+### 3. Diagram Topologi
 
-**Internet:** Jaringan global yang menghubungkan jutaan jaringan private & public
+| Tipe | Menunjukkan |
+|------|-------------|
+| **Physical** | Lokasi fisik perangkat & kabel |
+| **Logical** | Bagaimana data mengalir |
 
-**Cara Akses Internet:**
-- **DSL** - via saluran telepon
-- **Cable** - via kabel TV
-- **Fiber** - kecepatan tinggi, optik
-- **Cellular** - 4G/5G mobile
-- **Satellite** - area terpencil
+---
 
-**ISP (Internet Service Provider):**
-- Penyedia layanan akses Internet
+### 4. Akses Internet
+
+| Teknologi | Media | Kecepatan |
+|-----------|-------|-----------|
+| DSL | Telepon | Medium |
+| Cable | TV Kabel | Medium-High |
+| Fiber | Optik | Tinggi |
+| Cellular | 4G/5G | Variable |
+| Satellite | Satelit | Lambat (latency tinggi) |
+
+**ISP Tiers:**
 - Tier 1: Backbone global
 - Tier 2: Regional
 - Tier 3: Lokal (end user)
@@ -62,12 +72,9 @@
 
 ## 💡 Poin Penting
 
-1. **LAN = lokal, WAN = luas** (Internet = WAN terbesar)
-2. **Router** menghubungkan jaringan berbeda
-3. **Switch** menghubungkan device dalam 1 jaringan
-4. **Topologi** ada physical & logical
-5. Pilihan koneksi Internet tergantung lokasi & kebutuhan bandwidth
-
----
-
-**Konsep Terkait:** Network Components (Modul 2), Home Network (Modul 4)
+1. **PAN < LAN < MAN < WAN** (urutan jangkauan)
+2. **End device** = sumber/tujuan data
+3. **Intermediary device** = meneruskan data
+4. **Router** menghubungkan jaringan BERBEDA
+5. **Switch** menghubungkan device dalam SATU jaringan
+6. **ISP** = penyedia akses internet

@@ -1,91 +1,83 @@
 # Modul 4: Build a Home Network
 
-**Kursus:** Cisco Networking Academy - Networking Basics  
-**Status:** ✅ Selesai  
-**Tanggal:** Januari 2026
+**Modul:** 4 - Build a Home Network  
+**Status:** ✅ Selesai
 
 ---
 
-## 📚 Konsep Inti
+## 📌 Ringkasan
+
+- Wireless Router = Router + Switch + AP + DHCP Server (all-in-one)
+- Konfigurasi penting: Ubah password default, set SSID, gunakan WPA2/WPA3
+- DHCP otomatis assign IP, NAT translate private ↔ public IP
+
+---
+
+## 📚 Materi
 
 ### 1. Home Network Components
 
-**Integrated Router (Wireless Router):**
-Menggabungkan beberapa fungsi dalam 1 device:
-- **Router** - koneksi ke Internet (WAN)
-- **Switch** - port LAN (biasanya 4 port)
-- **Access Point** - wireless connectivity
-- **Firewall** - basic security (NAT)
-- **DHCP Server** - auto IP assignment
-
-### 2. Koneksi Home Router
-
-| Port/Interface | Fungsi |
-|----------------|--------|
-| **WAN/Internet** | Koneksi ke modem ISP |
-| **LAN (1-4)** | Koneksi wired devices |
-| **Wireless** | Koneksi Wi-Fi clients |
-| **USB** | Shared storage/printer |
+**Wireless Router (All-in-One):**
+| Fungsi | Penjelasan |
+|--------|------------|
+| Router | Koneksi ke Internet (WAN) |
+| Switch | Port LAN (biasanya 4 port) |
+| Access Point | Wireless connectivity |
+| DHCP Server | Auto IP assignment |
+| Firewall | Basic security (NAT) |
 
 ---
 
-## ⚙️ Konfigurasi Dasar
+### 2. Port pada Wireless Router
 
-### Setup Wizard
-1. Koneksi ke router (kabel/Wi-Fi)
-2. Akses web interface (192.168.1.1 atau 192.168.0.1)
-3. Login dengan default credentials
-4. Jalankan setup wizard
-
-### Konfigurasi Penting
-
-| Setting | Rekomendasi |
-|---------|-------------|
-| **Admin password** | Ubah dari default! |
-| **SSID** | Ubah, jangan gunakan info personal |
-| **Wi-Fi password** | Minimal 12 karakter, kompleks |
-| **Security mode** | WPA2-PSK atau WPA3 |
-| **Firmware** | Update ke versi terbaru |
+| Port | Fungsi |
+|------|--------|
+| **WAN/Internet** | Ke modem ISP |
+| **LAN (1-4)** | Ke PC, printer (wired) |
+| **Wireless** | Ke laptop, HP (Wi-Fi) |
 
 ---
 
-## 🌐 DHCP & IP Addressing
+### 3. Konfigurasi Dasar
 
-**DHCP (Dynamic Host Configuration Protocol):**
-- Router sebagai DHCP server
-- Auto assign IP ke clients
-- Default range: 192.168.1.100 - 192.168.1.254
+**Akses Router:**
+1. Hubungkan PC ke router (kabel/Wi-Fi)
+2. Buka browser → `192.168.1.1` atau `192.168.0.1`
+3. Login: `admin` / `admin` (default)
 
-**Static IP:**
-- Assign manual untuk server/printer
-- Di luar DHCP range atau reservation
+**Settings yang WAJIB Diubah:**
+| Setting | Nilai |
+|---------|-------|
+| Admin password | Ubah dari default! |
+| SSID | Nama jaringan (jangan default) |
+| Wi-Fi password | Minimal 12 karakter |
+| Security mode | WPA2 atau WPA3 |
 
-**NAT (Network Address Translation):**
+---
+
+### 4. DHCP dan NAT
+
+**DHCP:**
+- Router = DHCP server
+- Client dapat IP otomatis
+- Range contoh: 192.168.1.100 - 192.168.1.254
+
+**NAT:**
 - Translate private IP ↔ public IP
+- Banyak device share 1 public IP
 - Menyembunyikan internal network
-- 1 public IP untuk banyak private devices
-
----
-
-## 🔒 Home Network Security
-
-**Konfigurasi penting (dari Lab 4.4.4):**
-- Ubah **admin password** default
-- Set **SSID** (jangan biarkan default)
-- Gunakan **WPA2 Personal** dengan passphrase kuat
-- Konfigurasi **DHCP** range sesuai kebutuhan
 
 ---
 
 ## 💡 Poin Penting
 
-1. **Home router = router + switch + AP + firewall**
-2. **SELALU ubah default password** (admin & Wi-Fi)
-3. **WPA2/WPA3** wajib, WEP/WPA jangan digunakan
-4. **NAT** menyembunyikan internal network dari Internet
-5. **DHCP** auto-assign IP, static untuk server/printer
-6. **Firmware update** penting untuk patch vulnerability
+1. **Wireless Router** = 5 fungsi dalam 1 device
+2. **WAN port** ke modem, **LAN port** ke PC
+3. **UBAH password default** router (keamanan!)
+4. **WPA2/WPA3** untuk keamanan Wi-Fi
+5. **DHCP** = IP otomatis untuk client
+6. **NAT** = share 1 public IP untuk banyak device
 
 ---
 
-**Konsep Terkait:** Wireless Security (Modul 3), NAT (Modul 12), DHCP (Modul 11)
+**Praktik:** [Lab 1 - Configure Wireless Router](../Packet%20Tracer%20Labs/Lab%201%20-%20Configure%20Wireless%20Router%20and%20Client%20(4.4.4)/lab1.md)

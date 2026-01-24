@@ -1,45 +1,36 @@
-# Lab 2: Connect to a Web Server
+# Lab 2: Connect to a Web Server (8.1.3)
 
-**Module:** 8 (The Internet Protocol)  
-**Topik:** 8.1.3 Connect to a Web Server  
-**Tanggal Selesai:** 19 Januari 2026  
-**Status:** ✅ SELESAI
-
----
-
-## 📝 Summary (TL;DR)
-
-- ✅ Verifikasi konektivitas ke web server dengan **ping**
-- ✅ Akses web server menggunakan **IP address** (172.33.100.50)
-- ✅ Memahami bahwa komunikasi Internet menggunakan IP address
+**Lab:** Packet Tracer - Connect to a Web Server  
+**Modul:** 8.1.3 - The Internet Protocol  
+**Tanggal:** 19 Januari 2026  
+**Status:** ✅ Selesai
 
 ---
 
-## 📌 Tujuan Lab
+## 📋 Objectives
 
-> **Observe how packets are sent across the Internet using IP addresses.**
-
-Mengamati bagaimana paket dikirim melalui Internet menggunakan alamat IP.
+Observe how packets are sent across the Internet using IP addresses.
 
 ---
 
-## 🖥️ Topologi & Perangkat
+## 🔧 Topologi Jaringan
 
-| Device | Fungsi |
-|--------|--------|
-| **PC0** | Client (source host) |
-| **Web Server** | Server dengan IP 172.33.100.50 |
+```
+┌─────────────┐                              ┌─────────────────┐
+│    PC0      │ ──────── Internet ────────── │   Web Server    │
+│   Client    │                              │  172.33.100.50  │
+└─────────────┘                              └─────────────────┘
+```
 
 ---
 
-## 🔧 Hasil Praktik
+## 📝 Langkah Praktikum
 
 ### Part 1: Verify Connectivity to Web Server
 
 **Langkah:**
-1. Pilih **PC0**
-2. Buka **Desktop Tab** → **Command Prompt**
-3. Jalankan perintah ping ke web server
+1. Klik **PC0** → Tab **Desktop** → **Command Prompt**
+2. Ping ke web server untuk verifikasi konektivitas
 
 **Command:**
 ```
@@ -59,8 +50,6 @@ Ping statistics for 172.33.100.50:
 Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
 ```
 
-**Kesimpulan:** Reply menunjukkan konektivitas berhasil dari client ke web server.
-
 > **Note:** Reply mungkin timeout di awal saat devices loading dan ARP dilakukan.
 
 ---
@@ -68,60 +57,35 @@ Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
 ### Part 2: Connect to Web Server via Web Browser
 
 **Langkah:**
-1. Di **Desktop tab** PC0, pilih **Web Browser**
-2. Ketik **172.33.100.50** di URL bar
+1. Di **Desktop** tab PC0 → pilih **Web Browser**
+2. Ketik `172.33.100.50` di URL bar
 3. Klik **Go**
 
-**Hasil:**
-- Web browser berhasil menampilkan halaman web dari server
-- Koneksi menggunakan IP address langsung (tanpa domain name)
+**Hasil:** Web page berhasil ditampilkan
 
 ---
 
 ## ❓ Reflection Question
 
-**Q: What messages did you see after the web page has finished loading?**
+**Q:** What messages did you see after the web page has finished loading?
 
 **A:** "You were able to reach this website because you had the IP address of the web server. The connecting PC also had a web client running on the device."
-
-**Penjelasan:**
-- Bisa mengakses website karena **mengetahui IP address** server
-- PC client memiliki **web client (browser)** untuk mengirim request
 
 ---
 
 ## 💡 Learning Outcomes
 
-1. **IP Address = Identifier untuk Komunikasi**
-   - Untuk akses web server, kita butuh IP address-nya
-   - IP memungkinkan packet sampai ke tujuan yang benar
-
-2. **Ping untuk Verifikasi Konektivitas**
-   - Sebelum akses service, pastikan koneksi OK dengan ping
-   - Reply = reachable, Timeout = ada masalah
-
-3. **Web Communication**
-   - Browser (client) mengirim HTTP request ke IP server
-   - Server merespons dengan halaman web
+1. **IP Address untuk Komunikasi** - Akses web server membutuhkan IP address tujuan
+2. **Ping untuk Verifikasi** - Test konektivitas sebelum akses service
+3. **Client-Server Model** - PC sebagai client, web server sebagai server
+4. **Web Communication** - Browser mengirim HTTP request ke IP server
 
 ---
 
-## ✅ Verification Checklist
+## 🔗 Referensi
 
-- [x] Ping ke 172.33.100.50 berhasil (Reply received)
-- [x] Web browser dapat menampilkan halaman dari server
-- [x] Memahami peran IP address dalam komunikasi
-- [x] Completion: 100%
+- **Teori:** [Modul 8 - The Internet Protocol](../../notes_modul/modul-08-id.md)
 
 ---
 
-## 🔗 Hubungan dengan Modul 8
-
-Lab ini mendemonstrasikan:
-- **Tujuan IP address** - identifikasi dan lokasi web server
-- **Komunikasi menggunakan IP** - packet dikirim berdasarkan destination IP
-- **Client-Server model** - PC0 sebagai client, 172.33.100.50 sebagai server
-
----
-
-**File Lab:** `Connect to a Web Server.pka`
+**Completed:** 19 Januari 2026

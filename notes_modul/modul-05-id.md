@@ -1,90 +1,82 @@
-# Modul 5: Prinsip Komunikasi (Communication Principles)
+# Modul 5: Communication Principles
 
-**Kursus:** Cisco Networking Academy - Networking Basics  
-**Status:** ✅ Selesai  
-**Tanggal:** Januari 2026
+**Modul:** 5 - Communication Principles  
+**Status:** ✅ Selesai
 
 ---
 
-## 📚 Konsep Inti
+## 📌 Ringkasan
+
+- Protokol = aturan komunikasi jaringan
+- Model OSI (7 layer) vs TCP/IP (4 layer)
+- Data turun stack (encapsulation) saat kirim, naik stack saat terima
+
+---
+
+## 📚 Materi
 
 ### 1. Protokol Jaringan
-**Definisi:** Sekumpulan aturan yang mengatur proses komunikasi antar perangkat jaringan.
 
-**Protokol Penting:**
-- **Ethernet** - komunikasi di LAN
-- **IP** - pengalamatan dan routing antar jaringan
-- **TCP** - pengiriman data yang andal (reliable)
-- **HTTP** - komunikasi web
-- **DNS** - terjemahan nama domain ke IP address
+**Definisi:** Aturan yang mengatur komunikasi antar perangkat.
 
-### 2. Protocol Stack
-**Definisi:** Susunan protokol dalam bentuk lapisan (layers) yang bekerja sama untuk komunikasi data.
-
-**Cara kerja:**
-- Data turun stack saat dikirim (encapsulation)
-- Data naik stack saat diterima (de-encapsulation)
+| Protokol | Fungsi |
+|----------|--------|
+| Ethernet | Komunikasi di LAN |
+| IP | Pengalamatan & routing |
+| TCP | Pengiriman data reliable |
+| UDP | Pengiriman data cepat (unreliable) |
+| HTTP | Komunikasi web |
+| DNS | Domain → IP address |
 
 ---
 
-## 🔄 Model TCP/IP (4 Layer)
+### 2. Model TCP/IP (4 Layer)
 
 | Layer | Protokol | Fungsi |
 |-------|----------|--------|
-| **Application** | HTTP, FTP, DNS | Layanan aplikasi |
-| **Transport** | TCP, UDP | Komunikasi host-to-host |
-| **Internet** | IP, ICMP | Pengalamatan & routing |
-| **Network Access** | Ethernet | Akses ke media fisik |
+| **Application** | HTTP, DNS, FTP | Layanan aplikasi |
+| **Transport** | TCP, UDP | Host-to-host |
+| **Internet** | IP, ICMP | Addressing & routing |
+| **Network Access** | Ethernet | Akses media fisik |
 
 ---
 
-## 📊 Model OSI (7 Layer)
+### 3. Model OSI (7 Layer)
 
-| Layer | Fungsi Utama |
-|-------|--------------|
-| 7. Application | Interface ke aplikasi |
-| 6. Presentation | Format, enkripsi, kompresi |
-| 5. Session | Mengatur sesi komunikasi |
-| 4. Transport | Segmentasi & reliability |
-| 3. Network | Logical addressing & routing |
-| 2. Data Link | Framing & MAC addressing |
-| 1. Physical | Transmisi bit |
+| # | Layer | Fungsi | Contoh |
+|---|-------|--------|--------|
+| 7 | Application | Interface aplikasi | HTTP, DNS |
+| 6 | Presentation | Format, enkripsi | SSL, JPEG |
+| 5 | Session | Kelola sesi | NetBIOS |
+| 4 | Transport | Segmentasi | TCP, UDP |
+| 3 | Network | Logical addressing | IP, ICMP |
+| 2 | Data Link | Physical addressing | Ethernet, MAC |
+| 1 | Physical | Transmisi bit | Kabel, sinyal |
 
-**Cara mengingat:** All People Seem To Need Data Processing
-
----
-
-## 🆚 Perbandingan OSI vs TCP/IP
-
-| Aspek | OSI | TCP/IP |
-|-------|-----|--------|
-| Jumlah layer | 7 | 4 |
-| Tipe | Konseptual | Praktis |
-| Penggunaan | Pembelajaran | Internet nyata |
-
-**Kesamaan:** Kedua model punya layer Transport dan Network
+**Cara ingat:** **A**ll **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing
 
 ---
 
-## 📦 Encapsulation
+### 4. Encapsulation
 
-**Definisi:** Proses membungkus satu format pesan ke dalam format lain agar dapat dikirim melalui jaringan.
+```
+Data → Segment → Packet → Frame → Bits
+(Application → Transport → Network → Data Link → Physical)
+```
 
-**Proses:**
-1. Data → Segment (TCP/UDP header)
-2. Segment → Packet (IP header)  
-3. Packet → Frame (Ethernet header)
-4. Frame → Bits (sinyal fisik)
+| Layer | PDU (Protocol Data Unit) |
+|-------|--------------------------|
+| Transport | Segment |
+| Network | Packet |
+| Data Link | Frame |
 
 ---
 
 ## 💡 Poin Penting
 
-1. **Protokol** = aturan komunikasi antar device
-2. **TCP** = reliable (connection), **UDP** = fast (connectionless)
-3. **Encapsulation:** Data → Segment → Packet → Frame → Bits
-4. **OSI 7 layer** untuk konsep, **TCP/IP 4 layer** untuk praktis
-
----
-
-**Konsep Terkait:** Network Media (Modul 6), Access Layer (Modul 7)
+1. **Protokol** = aturan komunikasi jaringan
+2. **OSI** = 7 layer, **TCP/IP** = 4 layer
+3. **Layer 4 (Transport)** = TCP (reliable) atau UDP (fast)
+4. **Layer 3 (Network)** = IP address
+5. **Layer 2 (Data Link)** = MAC address
+6. **Encapsulation** = data dibungkus header tiap layer
