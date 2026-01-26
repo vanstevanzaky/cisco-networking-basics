@@ -40,14 +40,16 @@
 
 ### 3. DORA Process
 
-| Step | Nama | Pengirim | Fungsi |
-|------|------|----------|--------|
-| 1 | **Discover** | Client | Broadcast mencari DHCP server |
-| 2 | **Offer** | Server | Tawarkan IP address |
-| 3 | **Request** | Client | Minta IP yang ditawarkan |
-| 4 | **Acknowledgment** | Server | Konfirmasi IP diberikan |
+| Step | Nama | Pengirim | Tipe | Fungsi |
+|------|------|----------|------|--------|
+| 1 | **Discover** | Client | **Broadcast** | Mencari DHCP server |
+| 2 | **Offer** | Server | Unicast/Broadcast | Tawarkan IP address |
+| 3 | **Request** | Client | **Broadcast** | Minta IP yang ditawarkan |
+| 4 | **Acknowledgment** | Server | Unicast/Broadcast | Konfirmasi IP diberikan |
 
-**Catatan:** Discover dan Request adalah **broadcast**
+**Kenapa Discover & Request pakai Broadcast?**
+- Client **belum punya IP valid**, jadi tidak bisa unicast
+- Request di-broadcast agar **semua DHCP server** tahu server mana yang dipilih
 
 ---
 

@@ -178,7 +178,7 @@ Setiap selesai 1 modul, tutup catatan dan jawab:
 |-------|-------|--------|-----------|-----------------|
 | 10 | IPv6 Addressing | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
 | 11 | Dynamic Addressing (DHCP) | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
-| 12 | Gateways to Other Networks | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
+| 12 | Gateways to Other Networks | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
 | 13 | The ARP Process | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
 | 14 | Routing Between Networks | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
 | 15 | TCP and UDP | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |

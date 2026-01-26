@@ -63,7 +63,17 @@
 
 ---
 
-### 5. IANA dan RIR
+### 5. Alamat IPv4 Khusus (Special Use)
+
+| Alamat | Nama | Fungsi |
+|--------|------|--------|
+| **127.0.0.0/8** | Loopback | Tes koneksi ke diri sendiri (ping 127.0.0.1) |
+| **169.254.0.0/16** | Link-Local / APIPA | Auto-assign jika DHCP gagal |
+| **240.0.0.0 - 255.0.0.0** | Experimental | Reserved, tidak digunakan |
+
+---
+
+### 6. IANA dan RIR
 
 ```
 IANA → RIR → ISP → End User
@@ -79,7 +89,7 @@ IANA → RIR → ISP → End User
 
 ---
 
-### 6. Jenis Alamat dalam Subnet
+### 7. Jenis Alamat dalam Subnet
 
 **Contoh: 192.168.1.0/24**
 
