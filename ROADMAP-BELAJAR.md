@@ -28,6 +28,7 @@
 
 | Modul | Topik | Kenapa Penting untuk CyberSec |
 |-------|-------|-------------------------------|
+| **13** | MAC & IP Addresses, ARP | ARP spoofing, MITM attacks |
 | **11** | DHCP (Dynamic Addressing) | DHCP starvation, rogue DHCP server |
 | **10** | IPv6 Addressing & Format | Dual stack, tunneling attacks, IPv6 recon |
 | **7** | Switch & MAC Address Table | MAC flooding, ARP spoofing |
@@ -38,6 +39,7 @@
 - [ ] Bisa jelaskan cara switch belajar MAC address
 - [ ] Tahu perbedaan WEP vs WPA vs WPA2 vs WPA3
 - [ ] Paham kenapa hub lebih tidak aman dari switch
+- [ ] Bisa jelaskan proses ARP dan kenapa bisa di-spoofing
 
 ---
 
