@@ -13,8 +13,8 @@ Kumpulan 13 lab praktik dengan dokumentasi lengkap hasil pembelajaran.
 | 3 | Configure DHCP on Wireless Router | 11.2.3 | ✅ | 24 Jan 2026 |
 | 4 | Examine NAT on Wireless Router | 12.2.2 | ✅ | 25 Jan 2026 |
 | 5 | Identify MAC and IP Addresses | 13.1.3 | ✅ | 28 Jan 2026 |
-| 6 | Observe Traffic Flow in Routed Network | 14.3.3 | ⏳ | - |
-| 7 | Create a LAN | 14.3.4 | ⏳ | - |
+| 6 | Observe Traffic Flow in Routed Network | 14.3.3 | ✅ | 31 Dec 2024 |
+| 7 | Create a LAN | 14.3.4 | ✅ | 31 Dec 2024 |
 | 8 | The Client Interaction | 16.1.5 | ⏳ | - |
 | 9 | Observe Web Requests | 16.4.3 | ⏳ | - |
 | 10 | Use FTP Services | 16.5.3 | ⏳ | - |

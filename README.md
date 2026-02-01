@@ -9,8 +9,8 @@ Portofolio ini berisi 13 lab praktik Packet Tracer dengan dokumentasi lengkap se
 
 ## 📊 Progress Labs
 
-**Labs Selesai:** 5 / 13 ✅  
-**Course Completion:** ~55% (January 2026)
+**Labs Selesai:** 7 / 13 ✅  
+**Course Completion:** ~60% (December 2024)
 
 ### ✅ Completed:
 - ✅ Lab 1: Configure Wireless Router and Client (4.4.4) - 18 Jan 2026
@@ -18,11 +18,10 @@ Portofolio ini berisi 13 lab praktik Packet Tracer dengan dokumentasi lengkap se
 - ✅ Lab 3: Configure DHCP on Router (11.2.3) - 24 Jan 2026
 - ✅ Lab 4: Examine NAT on Router (12.2.2) - 25 Jan 2026
 - ✅ Lab 5: Identify MAC and IP Addresses (13.1.3) - 28 Jan 2026
+- ✅ Lab 6: Observe Traffic Flow in Routed Network (14.3.3) - 31 Dec 2024
+- ✅ Lab 7: Create a LAN (14.3.4) - 31 Dec 2024
 
 ### ⏳ Upcoming:
-- Lab 6: Observe Traffic Flow in Routed Network (14.3.3)
-- Lab 6: Observe Traffic Flow in Routed Network (14.3.3)
-- Lab 7: Create a LAN (14.3.4)
 - Lab 8: The Client Interaction (16.1.5)
 - Lab 9: Observe Web Requests (16.4.3)
 - Lab 10: Use FTP Services (16.5.3)
