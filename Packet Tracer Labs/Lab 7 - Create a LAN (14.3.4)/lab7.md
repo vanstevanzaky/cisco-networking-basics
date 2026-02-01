@@ -6,12 +6,13 @@
 
 ---
 
-## � Screenshots
+## 📸 Screenshots
 
 | Screenshot | Deskripsi |
 |------------|-----------|  
-| ![Topology](screenshots/lab7-01-topology.png) | LAN topology dengan Office Router |
+| ![Assessment](screenshots/lab7-01-assessment.png) | Assessment result - 100% completion |
 | ![ipconfig](screenshots/lab7-02-ipconfig.png) | Hasil ipconfig command |
+| ![Topology](screenshots/lab7-03-topology.png) | LAN topology dengan Office Router |
 
 ---
 

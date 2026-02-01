@@ -6,12 +6,13 @@
 
 ---
 
-## � Screenshots
+## 📸 Screenshots
 
 | Screenshot | Deskripsi |
 |------------|-----------|  
-| ![Topology](screenshots/lab6-01-topology.png) | Network topology dengan 3 departemen |
-| ![PDU Simulation](screenshots/lab6-02-pdu-simulation.png) | PDU simulation mode - ARP & ICMP |
+| ![Assessment](screenshots/lab6-01-assessment.png) | Assessment result - 100% completion |
+| ![Topology](screenshots/lab6-02-topology.png) | Network topology dengan 3 departemen |
+| ![PDU Simulation](screenshots/lab6-03-pdu-simulation.png) | PDU simulation mode - ARP & ICMP |
 
 ---
 
@@ -106,8 +107,3 @@ C:\> arp -d        (hapus entries jika ada)
 2. **Routed Network** = setiap subnet punya broadcast domain sendiri
 3. **ARP broadcast** dibatasi oleh router
 4. **Subnetting** meningkatkan efisiensi dan security
-
-### Relevansi untuk CyberSec:
-- **Network segmentation** = best practice security
-- Pisahkan departemen sensitive (Finance, HR) dari yang lain
-- Broadcast storm attack lebih terbatas jika network di-segment
