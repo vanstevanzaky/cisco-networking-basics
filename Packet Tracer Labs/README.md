@@ -15,10 +15,10 @@ Kumpulan 13 lab praktik dengan dokumentasi lengkap hasil pembelajaran.
 | 5 | Identify MAC and IP Addresses | 13.1.3 | ✅ | 28 Jan 2026 |
 | 6 | Observe Traffic Flow in Routed Network | 14.3.3 | ✅ | 31 Dec 2024 |
 | 7 | Create a LAN | 14.3.4 | ✅ | 31 Dec 2024 |
-| 8 | The Client Interaction | 16.1.5 | ⏳ | - |
-| 9 | Observe Web Requests | 16.4.3 | ⏳ | - |
-| 10 | Use FTP Services | 16.5.3 | ⏳ | - |
-| 11 | Use Telnet and SSH | 16.6.4 | ⏳ | - |
+| 8 | The Client Interaction | 16.1.5 | ✅ | 1 Feb 2026 |
+| 9 | Observe Web Requests | 16.4.3 | ✅ | 2 Feb 2026 |
+| 10 | Use FTP Services | 16.5.3 | ✅ | 2 Feb 2026 |
+| 11 | Use Telnet and SSH | 16.6.4 | ✅ | 2 Feb 2026 |
 | 12 | Use the ipconfig Command | 17.1.3 | ⏳ | - |
 | 13 | Use the ping Command | 17.1.6 | ⏳ | - |
 

@@ -9,8 +9,8 @@ Portofolio ini berisi 13 lab praktik Packet Tracer dengan dokumentasi lengkap se
 
 ## 📊 Progress Labs
 
-**Labs Selesai:** 7 / 13 ✅  
-**Course Completion:** ~60% (December 2024)
+**Labs Selesai:** 11 / 13 ✅  
+**Course Completion:** ~85% (February 2026)
 
 ### ✅ Completed:
 - ✅ Lab 1: Configure Wireless Router and Client (4.4.4) - 18 Jan 2026
@@ -20,12 +20,12 @@ Portofolio ini berisi 13 lab praktik Packet Tracer dengan dokumentasi lengkap se
 - ✅ Lab 5: Identify MAC and IP Addresses (13.1.3) - 28 Jan 2026
 - ✅ Lab 6: Observe Traffic Flow in Routed Network (14.3.3) - 31 Dec 2024
 - ✅ Lab 7: Create a LAN (14.3.4) - 31 Dec 2024
+- ✅ Lab 8: The Client Interaction (16.1.5) - 1 Feb 2026
+- ✅ Lab 9: Observe Web Requests (16.4.3) - 2 Feb 2026
+- ✅ Lab 10: Use FTP Services (16.5.3) - 2 Feb 2026
+- ✅ Lab 11: Use Telnet and SSH (16.6.4) - 2 Feb 2026
 
 ### ⏳ Upcoming:
-- Lab 8: The Client Interaction (16.1.5)
-- Lab 9: Observe Web Requests (16.4.3)
-- Lab 10: Use FTP Services (16.5.3)
-- Lab 11: Use Telnet and SSH (16.6.4)
 - Lab 12: Use ipconfig Command (17.1.3)
 - Lab 13: Use ping Command (17.1.6)
 
@@ -55,7 +55,8 @@ cisco-networking-basics/
 │   ├── modul-12-id.md (Gateways to Other Networks)
 │   ├── modul-13-id.md (MAC and IP Addresses)
 │   ├── modul-14-id.md (Routing Between Networks)
-│   └── modul-15-id.md (TCP and UDP)
+│   ├── modul-15-id.md (TCP and UDP)
+│   └── modul-16-id.md (Application Layer Services)
 ├── notes_modul_tambahan/
 │   ├── tambahan-modul-05.md (TCP/UDP, Ports, 3-Way Handshake)
 │   ├── tambahan-modul-07.md (ARP Protocol, ARP Spoofing)
@@ -83,5 +84,5 @@ Dokumentasi ini menunjukkan networking fundamentals yang solid untuk career path
 
 ---
 
-📅 **Terakhir Diperbarui:** 28 Januari 2026  
+📅 **Terakhir Diperbarui:** 2 Februari 2026  
 📊 **Repository Status:** Dalam Pengembangan Aktif

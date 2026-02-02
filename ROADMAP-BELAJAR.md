@@ -15,12 +15,15 @@
 | **5** | OSI & TCP/IP Model | Dasar analisis serangan per layer |
 | **8** | IPv4 Structure & Subnetting | Firewall rules, network scanning |
 | **9** | Unicast/Broadcast/Multicast + Private IP | Network enumeration, segmentation |
+| **15** | TCP & UDP, Port Numbers, Sockets | Protocol analysis, port scanning, netstat |
 
 **Tanda kamu sudah paham:**
 - [ ] Bisa jelaskan 7 layer OSI tanpa lihat catatan
 - [ ] Bisa hitung network address dari IP + subnet mask
 - [ ] Bisa bedakan private IP vs public IP langsung
 - [ ] Tahu kenapa broadcast berbahaya untuk security
+- [ ] Bisa jelaskan perbedaan TCP vs UDP dan kapan pakai masing-masing
+- [ ] Hafal well-known ports (21, 22, 23, 25, 53, 80, 443)
 
 ---
 
@@ -29,6 +32,8 @@
 | Modul | Topik | Kenapa Penting untuk CyberSec |
 |-------|-------|-------------------------------|
 | **13** | MAC & IP Addresses, ARP | ARP spoofing, MITM attacks |
+| **14** | Routing Between Networks | Network segmentation, routing attacks |
+| **16** | Application Layer (DNS, HTTP, FTP, SSH) | Application-layer attacks, service exploitation |
 | **11** | DHCP (Dynamic Addressing) | DHCP starvation, rogue DHCP server |
 | **10** | IPv6 Addressing & Format | Dual stack, tunneling attacks, IPv6 recon |
 | **7** | Switch & MAC Address Table | MAC flooding, ARP spoofing |
@@ -40,6 +45,9 @@
 - [ ] Tahu perbedaan WEP vs WPA vs WPA2 vs WPA3
 - [ ] Paham kenapa hub lebih tidak aman dari switch
 - [ ] Bisa jelaskan proses ARP dan kenapa bisa di-spoofing
+- [ ] Paham perbedaan router vs switch (Layer 3 vs Layer 2)
+- [ ] Tahu kenapa SSH lebih aman dari Telnet
+- [ ] Bisa jelaskan proses DNS resolution
 
 ---
 
