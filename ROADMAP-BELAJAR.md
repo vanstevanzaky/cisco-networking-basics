@@ -2,7 +2,8 @@
 ## Untuk Persiapan Magang Cybersecurity
 
 **Dibuat:** Januari 2026  
-**Tujuan:** Menguasai dasar networking untuk cybersecurity
+**Tujuan:** Menguasai dasar networking untuk cybersecurity  
+**Status:** 🏆 **COURSE COMPLETED - 03 Februari 2026**
 
 ---
 
@@ -189,11 +190,11 @@ Setiap selesai 1 modul, tutup catatan dan jawab:
 | 10 | IPv6 Addressing | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
 | 11 | Dynamic Addressing (DHCP) | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
 | 12 | Gateways to Other Networks | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
-| 13 | The ARP Process | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
-| 14 | Routing Between Networks | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
-| 15 | TCP and UDP | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
-| 16 | Application Layer Services | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
-| 17 | Network Testing Utilities | 🚧 Belum | ⬜⬜⬜⬜⬜ | - |
+| 13 | The ARP Process | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
+| 14 | Routing Between Networks | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
+| 15 | TCP and UDP | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
+| 16 | Application Layer Services | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
+| 17 | Network Testing Utilities | ✅ Selesai | ⬜⬜⬜⬜⬜ | - |
 
 ### Modul Tambahan
 | Topik | File | Pemahaman |
@@ -207,13 +208,20 @@ Setiap selesai 1 modul, tutup catatan dan jawab:
 
 ## 🚀 Next Steps
 
-1. **Sekarang:** Review modul 1-10 yang sudah selesai
-2. **Selanjutnya:** Lanjut modul Cisco 11-17
-3. **Minggu ini:** Selesaikan review modul prioritas 🔴
-4. **Target:** Selesaikan semua modul sebelum apply internship
+### 🏆 Course Completed! (03 Feb 2026)
 
-**Butuh bantuan?** Kirim konten Inggris dari NetAcad untuk diterjemahkan!
+1. **Review:** Ulangi modul prioritas 🔴 untuk persiapan interview
+2. **Practice:** Lanjut ke TryHackMe "Pre-Security" path
+3. **Hands-on:** Praktik dengan Wireshark untuk packet analysis
+4. **Target:** Apply cybersecurity internship (Mid-2026)
+
+### Rekomendasi Course Selanjutnya:
+- Cisco CyberOps Associate
+- CompTIA Security+ (Study)
+- TryHackMe Pre-Security Path
 
 ---
 
 *"Networking adalah fondasi cybersecurity."*
+
+🎉 **Selamat! Kamu sudah menyelesaikan Cisco Networking Basics!**

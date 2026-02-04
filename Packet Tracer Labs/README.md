@@ -4,6 +4,8 @@
 
 Kumpulan 13 lab praktik dengan dokumentasi lengkap hasil pembelajaran.
 
+**Status:** ✅ All 13 Labs Completed! (03 Feb 2026)
+
 ## 📚 Labs
 
 | # | Lab Name | Module | Status | Completed |
@@ -19,8 +21,8 @@ Kumpulan 13 lab praktik dengan dokumentasi lengkap hasil pembelajaran.
 | 9 | Observe Web Requests | 16.4.3 | ✅ | 2 Feb 2026 |
 | 10 | Use FTP Services | 16.5.3 | ✅ | 2 Feb 2026 |
 | 11 | Use Telnet and SSH | 16.6.4 | ✅ | 2 Feb 2026 |
-| 12 | Use the ipconfig Command | 17.1.3 | ⏳ | - |
-| 13 | Use the ping Command | 17.1.6 | ⏳ | - |
+| 12 | Use the ipconfig Command | 17.1.3 | ✅ | 3 Feb 2026 |
+| 13 | Use the ping Command | 17.1.6 | ✅ | 3 Feb 2026 |
 
 ## 📝 Format Setiap Lab
 
@@ -36,4 +38,4 @@ Setiap folder lab berisi:
 
 ---
 
-**Catatan:** Update status lab setelah setiap praktik selesai.
+🎉 **Semua lab telah selesai dikerjakan!** (03 Februari 2026)

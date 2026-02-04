@@ -3,14 +3,23 @@
 > Dokumentasi praktik lab Packet Tracer dari Cisco Networking Academy's Networking Basics course.  
 > Fokus pada hands-on experience dan pemahaman konsep networking untuk cybersecurity career path.
 
+## 🏆 COURSE COMPLETED!
+
+**Sertifikat:** Cisco Networking Basics  
+**Nama:** Stevan Zaky Setyanto  
+**Tanggal Selesai:** 03 Februari 2026  
+**Issued by:** Cisco Networking Academy
+
+![Cisco Networking Basics Certificate](certificate.jpg)
+
 ## 👨‍💻 Tentang Repository
 
 Portofolio ini berisi 13 lab praktik Packet Tracer dengan dokumentasi lengkap setiap lab. Setiap lab dilengkapi dengan penjelasan hasil praktik, insights, dan learnings.
 
 ## 📊 Progress Labs
 
-**Labs Selesai:** 11 / 13 ✅  
-**Course Completion:** ~85% (February 2026)
+**Labs Selesai:** 13 / 13 ✅  
+**Course Completion:** 100% 🎉 (03 February 2026)
 
 ### ✅ Completed:
 - ✅ Lab 1: Configure Wireless Router and Client (4.4.4) - 18 Jan 2026
@@ -24,10 +33,10 @@ Portofolio ini berisi 13 lab praktik Packet Tracer dengan dokumentasi lengkap se
 - ✅ Lab 9: Observe Web Requests (16.4.3) - 2 Feb 2026
 - ✅ Lab 10: Use FTP Services (16.5.3) - 2 Feb 2026
 - ✅ Lab 11: Use Telnet and SSH (16.6.4) - 2 Feb 2026
+- ✅ Lab 12: Use ipconfig Command (17.1.3) - 3 Feb 2026
+- ✅ Lab 13: Use ping Command (17.1.6) - 3 Feb 2026
 
-### ⏳ Upcoming:
-- Lab 12: Use ipconfig Command (17.1.3)
-- Lab 13: Use ping Command (17.1.6)
+### 🎉 All Labs Completed!
 
 ## 📁 Struktur Proyek
 
@@ -84,5 +93,6 @@ Dokumentasi ini menunjukkan networking fundamentals yang solid untuk career path
 
 ---
 
-📅 **Terakhir Diperbarui:** 2 Februari 2026  
-📊 **Repository Status:** Dalam Pengembangan Aktif
+📅 **Terakhir Diperbarui:** 4 Februari 2026  
+📊 **Repository Status:** ✅ Course Completed  
+🏆 **Sertifikat:** Diperoleh 03 Februari 2026

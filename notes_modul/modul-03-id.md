@@ -40,9 +40,17 @@
 
 | Standard | Frekuensi | Speed | Nama |
 |----------|-----------|-------|------|
+| 802.11a | 5 GHz | 54 Mbps | - |
+| 802.11b | 2.4 GHz | 11 Mbps | - |
+| 802.11g | 2.4 GHz | 54 Mbps | - |
 | 802.11n | 2.4/5 GHz | 600 Mbps | Wi-Fi 4 |
 | 802.11ac | 5 GHz | 6.9 Gbps | Wi-Fi 5 |
 | 802.11ax | 2.4/5/6 GHz | 9.6 Gbps | Wi-Fi 6 |
+
+**Catatan:**
+- **802.11b** = Standard Wi-Fi pertama yang populer (1999)
+- **802.11g** = Backward compatible dengan 802.11b
+- **802.11n** = Pertama yang dual-band (2.4 & 5 GHz) + MIMO
 
 **Frekuensi:**
 - **2.4 GHz** = Jangkauan jauh, lebih crowded
